@@ -1,0 +1,35 @@
+.settings-setting {
+  height: 50px;
+  margin: 5px 0px;
+
+  font-size: 20px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.settings-setting i {
+  width: 50px;
+  height: inherit;
+
+  margin: 20px 10px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings-setting div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.settings-setting div span:last-child {
+  margin: 0px 10px;
+}
+
+/* .settings-setting span:last-child {
+  opacity: 0.5;
+} */

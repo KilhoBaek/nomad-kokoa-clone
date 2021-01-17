@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Friends - Kokoa Talk</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="status-bar">
+        <div class="status-bar__column">
+            <span>No Service</span>
+            <i class="fas fa-wifi"></i>
+        </div>
+        <div class="status-bar__column">
+            <span>18:43</span>
+        </div>
+        <div class="status-bar__column">
+            <span>11%</span>
+            <i class="fas fa-battery-three-quarters fa-lg"></i>
+            <i class="fas fa-bolt fa-lg"></i>
+        </div>
+    </div>
+
+    <header class="screen-header">
+        <h1 class="screen-header__title">Friends</h1>
+        <div class="screen-header__icons">
+            <span><i class="fas fa-search fa-lg"></i></span>
+            <span><i class="fas fa-music fa-lg"></i></span>
+            <span><i class="fas fa-cog fa-lg"></i></span>
+        </div>
+    </header>
+
+    <a id="user-display-link">
+        <i class="fas fa-info-circle"></i>
+        Friend's Names Display
+        <i class="fas fa-chevron-right fa-xs"></i>
+    </a>
+
+    <main class="main-screen">
+        <div class="user-component">
+            <div class="user-component__column">
+                <img src="#" class="user-component__avatar">
+                <div class="user-component__text">
+                    <h4 class="user-component__title">Kilho Baek</h4>
+                    <h6 class="user-component__subtitle">test</h6>
+                </div>
+            </div>
+            <div class="user-component__column"></div>
+        </div>
+        
+        <div id="channel-hide-bar">
+            <span>Channel</span>
+            <i class="fas fa-chevron-up fa-xs"></i>
+        </div>
+        <div class="channel-component">
+            <div class="channel-component__column">
+                <img src="#" class="channel-component__avatar">
+                <div class="channel-component__text">
+                    <h4 class="channel-component__title">Channel</h4>
+                    <h6 class="channle-component__subtitle"></h6>
+                </div>
+            </div>
+            <div class="channel-component__column">
+                <span>2</span>
+                <i class="fas fa-chevron-right"></i>
+            </div>
+        </div>
+    </main>
+    
+
+    <nav class="nav">
+        <ul class="nav__list">
+            <li class="nav__btn">
+                <a class="nav__link" href="friends.html">
+                    <i class="fas fa-user fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="chats.html">
+                    <span class="nav__notification badge">1</span>
+                    <i class="far fa-comment fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="find.html">
+                    <i class="fas fa-search fa-2x"></i>
+                </a>
+            </li>
+            <li class="nav__btn">
+                <a class="nav__link" href="more.html">
+                    <span class="nav__updates"></span>
+                    <i class="fas fa-ellipsis-h fa-2x"></i>
+                </a></li>
+        </ul>
+    </nav>
+
+    <div id="splash-screen">
+        <i class="fas fa-comment"></i>
+    </div>
+
+    <div id="no-mobile">
+        <span>Your screen is too big ㅠㅠ</span>
+    </div>
+
+    <script src="https://kit.fontawesome.com/e62f0dab4f.js" crossorigin="anonymous"></script>
+</body>
+</html>
